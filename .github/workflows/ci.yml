@@ -23,7 +23,7 @@ jobs:
       - name: setup-netcore
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: 3.1.300
+          dotnet-version: 6.x.x
       - name: setup-msbuild
         uses: microsoft/setup-msbuild@v1
       - name: Install dependencies
