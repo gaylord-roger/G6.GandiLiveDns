@@ -32,7 +32,7 @@ jobs:
         run: dotnet build --configuration Release --no-restore
       - name: Pack
         run: dotnet pack -p:Version="1.0.0" -p:RepositoryType="git" -p:RepositoryUrl="https://github.com/${{ github.repository }}" -c Release -o dist
-#      - name: Publish on NuGet
-#        run: dotnet nuget push "dist\*.nupkg" --skip-duplicate --api-key ${{secrets.NUGET_API_KEY}} --source ${{secrets.NUGET_SOURCE}}
+      - name: Publish on NuGet
+        run: dotnet nuget push "dist\*.nupkg" --skip-duplicate --api-key ${{secrets.NUGET_API_KEY}} --source 'https://api.nuget.org/v3/index.json'
       - name: Publish on github packages
         run: dotnet nuget push "dist\*.nupkg" --skip-duplicate --api-key ${{ github.token }} --source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json
