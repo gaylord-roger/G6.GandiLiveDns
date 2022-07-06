@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G6.GandiLiveDns", "src\G6.GandiLiveDns\G6.GandiLiveDns.csproj", "{A2BEFD3D-C60E-4A70-9CD2-4772C39AF626}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G6.GandiLiveDns.Example", "samples\G6.GandiLiveDns.Example\G6.GandiLiveDns.Example.csproj", "{64583D36-9852-47AE-9799-899A33EFC375}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3F18454D-C1D3-4547-B7EA-CD9142B5E164}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2BEFD3D-C60E-4A70-9CD2-4772C39AF626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BEFD3D-C60E-4A70-9CD2-4772C39AF626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BEFD3D-C60E-4A70-9CD2-4772C39AF626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BEFD3D-C60E-4A70-9CD2-4772C39AF626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64583D36-9852-47AE-9799-899A33EFC375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64583D36-9852-47AE-9799-899A33EFC375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64583D36-9852-47AE-9799-899A33EFC375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64583D36-9852-47AE-9799-899A33EFC375}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39EB131B-0ADD-4F03-B567-ADE9F985AABC}
+	EndGlobalSection
+EndGlobal
